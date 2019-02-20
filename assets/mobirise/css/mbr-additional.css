@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster:400);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
@@ -20,14 +21,14 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lobster', display;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lobster', display;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -41,7 +42,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lobster', display;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -1385,12 +1386,12 @@ body {
   background-image: url("../../../assets/images/schermafbeelding-2019-02-12-om-18.45.30-1674x1206.png");
 }
 .cid-qTkA127IK8 H1 {
-  color: #fffd00;
+  color: #ff7f9f;
   text-align: center;
 }
 .cid-qTkA127IK8 .mbr-text,
 .cid-qTkA127IK8 .mbr-section-btn B {
-  color: #fffd00;
+  color: #f9f295;
 }
 .cid-rhSTg6c2qw {
   padding-top: 90px;
@@ -1414,5 +1415,73 @@ body {
   }
 }
 .cid-rhSTg6c2qw H1 {
-  color: #ffffff;
+  color: #ff7f9f;
+}
+.cid-riCcYBxi00 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-riCcYBxi00 .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-riCcYBxi00 .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-riCcYBxi00 .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-riCcYBxi00 .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-riCcYBxi00 .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #ffffff, #45505b) !important;
+}
+.cid-riCcYBxi00 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-riCcYBxi00 .mbr-gallery-item > div:hover:before {
+  opacity: 0 !important;
+}
+.cid-riCcYBxi00 .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-riCcYBxi00 .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #ffffff !important;
+  opacity: 0;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #ffffff, #45505b) !important;
+}
+.cid-riCcYBxi00 .mbr-gallery-item > div > span {
+  color: #efefef;
+}
+.cid-riCcYBxi00 .mbr-gallery-item > div > span B {
+  color: #efefef;
 }
